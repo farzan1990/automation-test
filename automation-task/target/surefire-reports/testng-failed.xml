@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tests.Test_Methods_Cazoo]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="Tests.Test_Methods_Cazoo">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="searchTest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- Tests.Test_Methods_Cazoo -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Tests.Test_Methods_Cazoo] -->

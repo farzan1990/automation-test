@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="4" name="Tests.Test_Methods_Cazoo" time="16.439" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="19.0.1"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/19.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/farzanfatemifar/automation/automation-task"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/farzanfatemifar/automation/automation-task"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="19.0.1"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.io.tmpdir" value="/var/folders/2g/m0348zxn0y79qqs9vtgv5q4m0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/farzanfatemifar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/opt/homebrew/Cellar/maven/3.8.6/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="63.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="12.0.1"/>
+    <property name="library.jansi.path" value="/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/farzanfatemifar"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="19"/>
+    <property name="user.name" value="farzanfatemifar"/>
+    <property name="java.class.path" value="/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/19.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="apple.awt.application.name" value="Launcher"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="maven.home" value="/opt/homebrew/Cellar/maven/3.8.6/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="Tests.Test_Methods_Cazoo" name="searchTest" time="1.205">
+    <failure message="expected [ 1 Series 2.0 120d M Sport Coupe 2dr Diesel Manual (128 g/km] but found [1 Series 2.0 120d M Sport Coupe 2dr Diesel Manual Euro 4 (177 ps)]" type="java.lang.AssertionError">java.lang.AssertionError: expected [ 1 Series 2.0 120d M Sport Coupe 2dr Diesel Manual (128 g/km] but found [1 Series 2.0 120d M Sport Coupe 2dr Diesel Manual Euro 4 (177 ps)]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at Tests.Test_Methods_Cazoo.searchTest(Test_Methods_Cazoo.java:81)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@6e3c1e69
+List of files and directories in the specified directory:
+AD58 VNF
+BW57 BOW
+KT17DLX
+SG18 HTN
+MT20ZPP
+REGISTRATION,MAKE,MODEL
+
+
+
+SG18HTN,Volkswagen,Golf 1.5 TSI EVO SE Nav Hatchback 5dr Petrol (s/s) (130 ps)
+
+
+AD58VNF,BMW, 1 Series 2.0 120d M Sport Coupe 2dr Diesel Manual (128 g/km, 177 bhp)
+
+
+BW57BOF,Toyota,Yaris 1.0 VVT-i T2 Hatchback 3dr Petrol Manual (127 g/km, 67 bhp)
+
+
+KT17DLX,SKODA,Superb 2.0 TDI SportLine Estate 5dr Diesel DSG Auto 6Spd (s/s) (190 ps)
+REGISTRATION,MAKE,MODEL
+
+
+
+MT20ZPP,Porsche,Taycan Performance 79.2kWh 4S Saloon 4dr Electric Auto 4WD (530 ps)
+
+
+KT17DLX,SKODA,Superb 2.0 TDI SportLine Estate 5dr Diesel DSG Auto 6Spd (s/s) (190 ps)
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 5269
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+</system-err>
+  </testcase>
+  <testcase classname="Tests.Test_Methods_Cazoo" name="searchTest" time="10.82">
+    <failure message="Registration Does not exist&apos; " type="java.lang.AssertionError">java.lang.AssertionError: Registration Does not exist&apos; 
+	at org.testng.Assert.fail(Assert.java:110)
+	at Objects.CazooSearchResults.getResultsText(CazooSearchResults.java:47)
+	at Tests.Test_Methods_Cazoo.searchTest(Test_Methods_Cazoo.java:60)
+</failure>
+    <system-err>Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 27676
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+</system-err>
+  </testcase>
+  <testcase classname="Tests.Test_Methods_Cazoo" name="searchTest" time="1.284">
+    <failure message="expected [Superb 2.0 TDI SportLine Estate 5dr Diesel DSG Auto 6Spd (s/s) (190 ps)] but found [Superb 2.0 TDI SportLine Estate 5dr Diesel DSG Auto 6Spd Euro 6 (s/s) (190 ps)]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Superb 2.0 TDI SportLine Estate 5dr Diesel DSG Auto 6Spd (s/s) (190 ps)] but found [Superb 2.0 TDI SportLine Estate 5dr Diesel DSG Auto 6Spd Euro 6 (s/s) (190 ps)]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at Tests.Test_Methods_Cazoo.searchTest(Test_Methods_Cazoo.java:81)
+</failure>
+    <system-out>REGISTRATION,MAKE,MODEL
+
+
+
+SG18HTN,Volkswagen,Golf 1.5 TSI EVO SE Nav Hatchback 5dr Petrol (s/s) (130 ps)
+
+
+AD58VNF,BMW, 1 Series 2.0 120d M Sport Coupe 2dr Diesel Manual (128 g/km, 177 bhp)
+
+
+BW57BOF,Toyota,Yaris 1.0 VVT-i T2 Hatchback 3dr Petrol Manual (127 g/km, 67 bhp)
+
+
+KT17DLX,SKODA,Superb 2.0 TDI SportLine Estate 5dr Diesel DSG Auto 6Spd (s/s) (190 ps)
+REGISTRATION,MAKE,MODEL
+
+
+
+MT20ZPP,Porsche,Taycan Performance 79.2kWh 4S Saloon 4dr Electric Auto 4WD (530 ps)
+
+
+KT17DLX,SKODA,Superb 2.0 TDI SportLine Estate 5dr Diesel DSG Auto 6Spd (s/s) (190 ps)
+</system-out>
+    <system-err>Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 18805
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+</system-err>
+  </testcase>
+  <testcase classname="Tests.Test_Methods_Cazoo" name="searchTest" time="1.397">
+    <failure message="expected [Golf 1.5 TSI EVO SE Nav Hatchback 5dr Petrol (s/s) (130 ps)] but found [Golf 1.5 TSI EVO SE Nav Hatchback 5dr Petrol Manual Euro 6 (s/s) (130 ps)]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Golf 1.5 TSI EVO SE Nav Hatchback 5dr Petrol (s/s) (130 ps)] but found [Golf 1.5 TSI EVO SE Nav Hatchback 5dr Petrol Manual Euro 6 (s/s) (130 ps)]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at Tests.Test_Methods_Cazoo.searchTest(Test_Methods_Cazoo.java:81)
+</failure>
+    <system-out>REGISTRATION,MAKE,MODEL
+
+
+
+SG18HTN,Volkswagen,Golf 1.5 TSI EVO SE Nav Hatchback 5dr Petrol (s/s) (130 ps)
+
+
+AD58VNF,BMW, 1 Series 2.0 120d M Sport Coupe 2dr Diesel Manual (128 g/km, 177 bhp)
+
+
+BW57BOF,Toyota,Yaris 1.0 VVT-i T2 Hatchback 3dr Petrol Manual (127 g/km, 67 bhp)
+
+
+KT17DLX,SKODA,Superb 2.0 TDI SportLine Estate 5dr Diesel DSG Auto 6Spd (s/s) (190 ps)
+REGISTRATION,MAKE,MODEL
+
+
+
+MT20ZPP,Porsche,Taycan Performance 79.2kWh 4S Saloon 4dr Electric Auto 4WD (530 ps)
+
+
+KT17DLX,SKODA,Superb 2.0 TDI SportLine Estate 5dr Diesel DSG Auto 6Spd (s/s) (190 ps)
+</system-out>
+    <system-err>Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 38454
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+</system-err>
+  </testcase>
+  <testcase classname="Tests.Test_Methods_Cazoo" name="searchTest" time="1.733"/>
+</testsuite>
